@@ -8,6 +8,9 @@ project(cpswarm_msgs)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  std_msgs
+  geometry_msgs
+  mavros_msgs
   swarmros
   message_generation
 )
@@ -48,7 +51,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  GlobalTargetPositionEvent.msg
+  TargetAssignmentEvent.msg
+  TargetPositionEvent.msg
+  TargetTracking.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -66,7 +71,13 @@ add_message_files(
 # )
 
 ## Generate added messages and services with any dependencies listed here
-generate_messages(DEPENDENCIES swarmros)
+generate_messages(
+  DEPENDENCIES
+  std_msgs
+  geometry_msgs
+  mavros_msgs
+  swarmros
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
