@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   mavros_msgs
   swarmros
+  actionlib_msgs
   message_generation
 )
 
@@ -54,6 +55,7 @@ add_message_files(
   TargetAssignmentEvent.msg
   TargetPositionEvent.msg
   TargetTracking.msg
+  TargetAssignedEvent.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -64,11 +66,11 @@ add_message_files(
 # )
 
 ## Generate actions in the 'action' folder
-# add_action_files(
-#   FILES
-#   Action1.action
-#   Action2.action
-# )
+add_action_files(
+  DIRECTORY action
+  FILES
+  Empty.action
+)
 
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
@@ -77,6 +79,7 @@ generate_messages(
   geometry_msgs
   mavros_msgs
   swarmros
+  actionlib_msgs
 )
 
 ################################################

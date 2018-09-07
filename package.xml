@@ -24,10 +24,12 @@
 	<!-- <author email="jane.doe@example.com">Jane Doe</author> -->
 
 	<buildtool_depend>catkin</buildtool_depend>
-
+	
+	<build_depend>actionlib_msgs</build_depend>
 	<build_depend>message_generation</build_depend>
 	<build_depend>swarmros</build_depend>
-
+	
+	<exec_depend>actionlib_msgs</exec_depend>
 	<exec_depend>message_runtime</exec_depend>
 	<exec_depend>swarmros</exec_depend>
 	
