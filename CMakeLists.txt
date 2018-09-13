@@ -70,6 +70,7 @@ add_action_files(
   DIRECTORY action
   FILES
   Empty.action
+  Tracking.action
 )
 
 ## Generate added messages and services with any dependencies listed here

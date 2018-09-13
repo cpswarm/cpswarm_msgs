@@ -1,0 +1,4 @@
+uint32 target   # id of the target
+string cps      # uuid of the cps that has been assigned to the target
+---
+---
