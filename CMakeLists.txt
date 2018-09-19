@@ -70,6 +70,7 @@ add_action_files(
   DIRECTORY action
   FILES
   Empty.action
+  Coverage.action
   Tracking.action
 )
 
@@ -77,6 +78,7 @@ add_action_files(
 generate_messages(
   DEPENDENCIES
   std_msgs
+  sensor_msgs
   geometry_msgs
   mavros_msgs
   swarmros

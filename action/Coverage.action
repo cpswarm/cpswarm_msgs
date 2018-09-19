@@ -1,0 +1,4 @@
+---
+uint32 target_id                    # id of the found target
+sensor_msgs/NavSatFix target_pose   # position of the found target
+---
