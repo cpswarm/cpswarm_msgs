@@ -52,10 +52,13 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  ArrayOfVectors.msg
+  Position.msg
   TargetAssignmentEvent.msg
   TargetPositionEvent.msg
   TargetTracking.msg
   TargetAssignedEvent.msg
+  Vector.msg
 )
 
 ## Generate services in the 'srv' folder
