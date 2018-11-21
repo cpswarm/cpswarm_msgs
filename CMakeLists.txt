@@ -59,6 +59,7 @@ add_message_files(
   LocalTargetPositionEvent.msg
   TargetTracking.msg
   TargetAssignedEvent.msg
+  LocalTargetAssignedEvent.msg
   Vector.msg
 )
 
