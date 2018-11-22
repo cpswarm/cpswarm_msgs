@@ -1,4 +1,4 @@
 ---
 uint32 target_id                    # id of the found target
-geometry_msgs/Pose target_pose   # position of the found target
+geometry_msgs/Pose target_pose      # position of the found target
 ---
