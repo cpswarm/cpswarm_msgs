@@ -1,0 +1,4 @@
+
+---
+float64 min # minimum angle in radian
+float64 max # maximum angle in radian

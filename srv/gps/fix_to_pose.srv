@@ -1,0 +1,3 @@
+sensor_msgs/NavSatFix fix
+---
+geometry_msgs/PoseStamped pose

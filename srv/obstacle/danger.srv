@@ -1,0 +1,5 @@
+
+---
+bool danger # there is an obstacle dangerously close
+float64 backoff # the distance to back off in order to avert the danger
+float64 direction # safe direction

@@ -66,12 +66,20 @@ add_message_files(
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
-
+add_service_files(
+  FILES
+  area/closest_bound.srv
+  area/get_area.srv
+  area/get_origin.srv
+  area/out_of_bounds.srv
+  gps/fix_to_pose.srv
+  gps/get_gps_origin.srv
+  gps/ned_to_enu.srv
+  gps/pose_to_fix.srv
+  obstacle/clear_of_obstacles.srv
+  obstacle/danger.srv
+  obstacle/get_occupied_sector.srv
+)
 
 ## Generate actions in the 'action' folder
 add_action_files(
