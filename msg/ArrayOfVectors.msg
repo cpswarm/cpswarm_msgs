@@ -1,1 +1,1 @@
-Vector[] vectors				# Array of vector elements
+cpswarm_msgs/VectorStamped[] vectors # Array of vector elements

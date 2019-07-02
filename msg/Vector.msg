@@ -1,3 +1,2 @@
-float32 distance			# distance from drone
-float32 bearing				# bearing to drone
- 
+float32 magnitude # magnitude of vector
+float32 direction # direction of vector

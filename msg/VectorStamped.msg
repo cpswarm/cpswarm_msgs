@@ -1,3 +1,3 @@
 std_msgs/Header header       # ros header
 swarmros/EventHeader swarmio # cpswarm swarmio swarmros header
-sensor_msgs/NavSatFix pose   # cps position in global gps coordinates
+cpswarm_msgs/Vector vector   # cpswarm vector

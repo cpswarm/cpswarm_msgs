@@ -9,8 +9,8 @@ project(cpswarm_msgs)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
+  sensor_msgs
   geometry_msgs
-  mavros_msgs
   swarmros
   actionlib_msgs
   message_generation
@@ -53,13 +53,16 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   ArrayOfVectors.msg
+  LocalPosition.msg
+  LocalTargetPositionEvent.msg
   Position.msg
+  TargetAssignedEvent.msg
   TargetAssignmentEvent.msg
   TargetPositionEvent.msg
-  LocalTargetPositionEvent.msg
   TargetTracking.msg
-  TargetAssignedEvent.msg
   Vector.msg
+  VectorStamped.msg
+  Velocity.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -68,6 +71,7 @@ add_message_files(
 #   Service1.srv
 #   Service2.srv
 # )
+
 
 ## Generate actions in the 'action' folder
 add_action_files(
@@ -84,7 +88,6 @@ generate_messages(
   std_msgs
   sensor_msgs
   geometry_msgs
-  mavros_msgs
   swarmros
   actionlib_msgs
 )
@@ -119,7 +122,7 @@ generate_messages(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-  CATKIN_DEPENDS message_runtime mavros_msgs
+  CATKIN_DEPENDS message_runtime
 )
 
 ###########
