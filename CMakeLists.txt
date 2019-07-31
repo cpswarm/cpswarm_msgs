@@ -53,12 +53,10 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   ArrayOfVectors.msg
-  LocalPosition.msg
-  LocalTargetPositionEvent.msg
   Position.msg
+  TargetPositionEvent.msg
   TargetAssignedEvent.msg
   TargetAssignmentEvent.msg
-  TargetPositionEvent.msg
   TargetTracking.msg
   Vector.msg
   VectorStamped.msg
