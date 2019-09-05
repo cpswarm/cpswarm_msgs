@@ -77,7 +77,7 @@ add_service_files(
   gps/pose_to_fix.srv
   obstacle/clear_of_obstacles.srv
   obstacle/danger.srv
-  obstacle/get_occupied_sector.srv
+  obstacle/get_sector.srv
 )
 
 ## Generate actions in the 'action' folder
