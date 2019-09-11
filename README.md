@@ -1,11 +1,11 @@
 # cpswarm_msgs
-
 Common messages required by the CPSwarm Behavior Library.
 
 ## Dependencies
 This package depends on the [CPSwarm Communication Library](https://github.com/cpswarm/swarmio).
 
-## ROS Message Types
+## ROS Message / Service / Action Types
+All message, service, and action types are given in the [cpswarm_msgs API documentation](https://cpswarm.github.io/cpswarm_msgs/html/index-msg.html)
 
 ## Contributing
 Contributions are welcome. 
