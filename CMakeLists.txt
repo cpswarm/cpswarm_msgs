@@ -56,8 +56,8 @@ add_message_files(
   ArrayOfVectors.msg
   Position.msg
   TargetPositionEvent.msg
-  TargetAssignedEvent.msg
-  TargetAssignmentEvent.msg
+  TaskAllocatedEvent.msg
+  TaskAllocationEvent.msg
   TargetTracking.msg
   Vector.msg
   VectorStamped.msg
@@ -86,6 +86,7 @@ add_action_files(
   FILES
   Empty.action
   Coverage.action
+  TaskAllocation.action
   Tracking.action
 )
 
