@@ -1,0 +1,46 @@
+actions:
+- Tracking
+- Empty
+- Coverage
+- TaskAllocation
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- std_msgs
+- actionlib_msgs
+- message_runtime
+- sensor_msgs
+- swarmros
+- message_generation
+- geometry_msgs
+description: Common messages required by the CPSwarm Behavior Library.
+license: Apache License 2.0
+maintainers: Gianluca Prato <prato@ismb.it>, Micha Sende <sende@lakeside-labs.com>
+msgs:
+- ArrayOfVectors
+- TaskAllocationEvent
+- Vector
+- Position
+- TaskAllocatedEvent
+- TargetTracking
+- ArrayOfPositions
+- Velocity
+- VectorStamped
+- TargetPositionEvent
+package_type: package
+repo_url: ''
+srvs:
+- danger
+- clear_of_obstacles
+- get_sector
+- get_gps_origin
+- ned_to_enu
+- fix_to_pose
+- pose_to_fix
+- get_origin
+- closest_bound
+- get_area
+- out_of_bounds
+url: ''
