@@ -1,0 +1,3 @@
+float64 tolerance         # The distance to the current waypoint below which the next waypoint of the path is selected.
+---
+geometry_msgs/Point point # The waypoint to navigate to.
