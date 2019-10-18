@@ -85,8 +85,9 @@ add_service_files(
 add_action_files(
   DIRECTORY action
   FILES
-  Empty.action
   Coverage.action
+  Empty.action
+  Target.action
   TaskAllocation.action
   Tracking.action
 )
