@@ -54,8 +54,10 @@ add_message_files(
   FILES
   AreaDivisionEvent.msg
   ArrayOfPositions.msg
+  ArrayOfStates.msg
   ArrayOfVectors.msg
   Position.msg
+  StateEvent.msg
   TargetPositionEvent.msg
   TaskAllocatedEvent.msg
   TaskAllocationEvent.msg
