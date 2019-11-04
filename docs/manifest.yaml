@@ -2,8 +2,9 @@ actions:
 - Tracking
 - Empty
 - Coverage
+- Target
 - TaskAllocation
-authors: ''
+authors: Gianluca Prato <prato@ismb.it>
 brief: ''
 bugtracker: ''
 depends:
@@ -20,27 +21,31 @@ license: Apache License 2.0
 maintainers: Gianluca Prato <prato@ismb.it>, Micha Sende <sende@lakeside-labs.com>
 msgs:
 - ArrayOfVectors
+- ArrayOfStates
 - TaskAllocationEvent
 - Vector
+- AreaDivisionEvent
 - Position
 - TaskAllocatedEvent
 - TargetTracking
 - ArrayOfPositions
 - Velocity
 - VectorStamped
+- StateEvent
 - TargetPositionEvent
 package_type: package
 repo_url: ''
 srvs:
-- danger
-- clear_of_obstacles
-- get_sector
-- get_gps_origin
-- ned_to_enu
-- fix_to_pose
-- pose_to_fix
-- get_origin
-- closest_bound
-- get_area
-- out_of_bounds
-url: ''
+- Danger
+- GetSector
+- ClearOfObstacles
+- GetWaypoint
+- FixToPose
+- PoseToFix
+- NedToEnu
+- GetGpsOrigin
+- GetOrigin
+- ClosestBound
+- GetArea
+- OutOfBounds
+url: http://wiki.ros.org/cpswarm_msgs
