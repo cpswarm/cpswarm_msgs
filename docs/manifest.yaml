@@ -4,7 +4,7 @@ actions:
 - Coverage
 - Target
 - TaskAllocation
-authors: Gianluca Prato <prato@ismb.it>
+authors: Micha Sende <sende@lakeside-labs.com>
 brief: ''
 bugtracker: ''
 depends:
@@ -36,16 +36,16 @@ msgs:
 package_type: package
 repo_url: ''
 srvs:
-- Danger
-- GetSector
-- ClearOfObstacles
-- GetWaypoint
 - FixToPose
-- PoseToFix
-- NedToEnu
-- GetGpsOrigin
-- GetOrigin
+- GetPoints
+- Danger
+- GetGpsFix
+- GetSector
+- GetWaypoint
 - ClosestBound
-- GetArea
+- PoseToFix
+- ClearOfObstacles
+- GetPoint
 - OutOfBounds
+- NedToEnu
 url: http://wiki.ros.org/cpswarm_msgs

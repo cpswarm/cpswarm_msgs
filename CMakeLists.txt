@@ -70,18 +70,18 @@ add_message_files(
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  area/ClosestBound.srv
-  area/GetArea.srv
-  area/GetOrigin.srv
-  area/OutOfBounds.srv
-  gps/FixToPose.srv
-  gps/GetGpsOrigin.srv
-  gps/NedToEnu.srv
-  gps/PoseToFix.srv
-  obstacle/ClearOfObstacles.srv
-  obstacle/Danger.srv
-  obstacle/GetSector.srv
-  path/GetWaypoint.srv
+  ClearOfObstacles.srv
+  ClosestBound.srv
+  Danger.srv
+  FixToPose.srv
+  GetGpsFix.srv
+  GetPoint.srv
+  GetPoints.srv
+  GetSector.srv
+  GetWaypoint.srv
+  NedToEnu.srv
+  OutOfBounds.srv
+  PoseToFix.srv
 )
 
 ## Generate actions in the 'action' folder
