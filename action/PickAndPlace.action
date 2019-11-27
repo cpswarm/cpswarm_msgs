@@ -1,0 +1,9 @@
+# Define the goal
+cpswarm_msgs/PickAndPlaceMsg goal
+---
+# Define the result
+bool success
+string message
+---
+# Define the feedback
+

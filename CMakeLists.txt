@@ -56,6 +56,7 @@ add_message_files(
   ArrayOfPositions.msg
   ArrayOfStates.msg
   ArrayOfVectors.msg
+  PickAndPlaceMsg.msg
   Position.msg
   StateEvent.msg
   TargetPositionEvent.msg
@@ -93,6 +94,7 @@ add_action_files(
   Target.action
   TaskAllocation.action
   Tracking.action
+  PickAndPlace.action
 )
 
 ## Generate added messages and services with any dependencies listed here
@@ -103,6 +105,7 @@ generate_messages(
   geometry_msgs
   swarmros
   actionlib_msgs
+  cpswarm_msgs
 )
 
 ################################################
