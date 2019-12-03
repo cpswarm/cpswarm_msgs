@@ -1,5 +1,5 @@
-# Define the goal
-cpswarm_msgs/PickAndPlaceMsg goal
+uint32 box_id 				# id of the cart detected
+geometry_msgs/PoseStamped target_pose      
 ---
 # Define the result
 bool success
