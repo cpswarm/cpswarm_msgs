@@ -56,7 +56,6 @@ add_message_files(
   ArrayOfPositions.msg
   ArrayOfStates.msg
   ArrayOfVectors.msg
-  PickAndPlaceMsg.msg
   Position.msg
   StateEvent.msg
   TargetPositionEvent.msg
