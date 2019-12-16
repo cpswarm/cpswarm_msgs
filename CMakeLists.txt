@@ -74,6 +74,7 @@ add_service_files(
   ClosestBound.srv
   Danger.srv
   FixToPose.srv
+  GetDouble.srv
   GetGpsFix.srv
   GetPoint.srv
   GetPoints.srv
