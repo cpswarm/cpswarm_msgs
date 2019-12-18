@@ -79,6 +79,7 @@ add_service_files(
   GetPoint.srv
   GetPoints.srv
   GetSector.srv
+  GetVector.srv
   GetWaypoint.srv
   NedToEnu.srv
   OutOfBounds.srv
