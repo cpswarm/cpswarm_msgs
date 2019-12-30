@@ -58,6 +58,7 @@ add_message_files(
   ArrayOfVectors.msg
   CartKnownEvent.msg
   NewCartEvent.msg
+  NewPlacePoses.msg
   Position.msg
   StateEvent.msg
   TargetPositionEvent.msg
