@@ -1,5 +1,6 @@
 actions:
 - Tracking
+- PickAndPlace
 - Empty
 - Coverage
 - Target
@@ -23,6 +24,8 @@ msgs:
 - ArrayOfVectors
 - ArrayOfStates
 - TaskAllocationEvent
+- CartKnownEvent
+- NewCartEvent
 - Vector
 - AreaDivisionEvent
 - Position
@@ -39,9 +42,11 @@ srvs:
 - FixToPose
 - GetPoints
 - Danger
+- GetVector
 - GetGpsFix
 - GetSector
 - GetWaypoint
+- GetDouble
 - ClosestBound
 - PoseToFix
 - ClearOfObstacles
