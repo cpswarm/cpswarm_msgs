@@ -61,6 +61,7 @@ add_message_files(
   Position.msg
   StateEvent.msg
   TargetPositionEvent.msg
+  TargetGlobalPositionEvent.msg
   TaskAllocatedEvent.msg
   TaskAllocationEvent.msg
   TargetTracking.msg
