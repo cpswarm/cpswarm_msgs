@@ -1,0 +1,6 @@
+# Define the goal
+float64 altitude # The altitude above ground in meters.
+---
+# Define the result
+---
+# Define the feeeback
