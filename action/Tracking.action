@@ -1,3 +1,4 @@
-uint32 target   # id of the target
+uint32 target    # id of the target
+float64 altitude # altitude at which the tracking takes place
 ---
 ---
