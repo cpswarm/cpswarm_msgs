@@ -53,6 +53,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   AreaDivisionEvent.msg
+  AreaModificationEvent.msg
   ArrayOfPositions.msg
   ArrayOfStates.msg
   ArrayOfVectors.msg
