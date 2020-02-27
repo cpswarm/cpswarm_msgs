@@ -1,5 +1,5 @@
 # cpswarm_msgs
-[![Build Status](http://build.ros.org/buildStatus/icon?job=Ksrc_uX__cpswarm_msgs__ubuntu_xenial__source)](http://build.ros.org/job/Ksrc_uX__cpswarm_msgs__ubuntu_xenial__source/)
+[![Build Status](http://build.ros.org/buildStatus/icon?job=Kdev__cpswarm_msgs__ubuntu_xenial_amd64)](http://build.ros.org/job/Kdev__cpswarm_msgs__ubuntu_xenial_amd64/)
 
 Common messages required by the CPSwarm Behavior Library.
 
