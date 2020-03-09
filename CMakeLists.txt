@@ -64,6 +64,7 @@ add_message_files(
   TargetGlobalPositionEvent.msg
   TaskAllocatedEvent.msg
   TaskAllocationEvent.msg
+  TaskOrganizationEvent.msg
   TargetTracking.msg
   Vector.msg
   VectorStamped.msg
@@ -97,6 +98,7 @@ add_action_files(
   Empty.action
   Target.action
   TaskAllocation.action
+  TaskOrganization.action
   Tracking.action
   PickAndPlace.action
 )
