@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   sensor_msgs
   geometry_msgs
+  geographic_msgs
   swarmros
   actionlib_msgs
   message_generation
@@ -86,6 +87,7 @@ add_service_files(
   NedToEnu.srv
   OutOfBounds.srv
   PoseToFix.srv
+  PoseToGeo.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -107,6 +109,7 @@ generate_messages(
   std_msgs
   sensor_msgs
   geometry_msgs
+  geographic_msgs
   swarmros
   actionlib_msgs
   cpswarm_msgs
