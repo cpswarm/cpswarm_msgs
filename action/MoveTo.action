@@ -1,0 +1,9 @@
+# Define the goal
+geometry_msgs/PoseStamped goal # position of the goal where to move to
+---
+# Define the result
+geometry_msgs/PoseStamped reached # position reached
+---
+# Define the feeeback
+geometry_msgs/PoseStamped position # current position
+

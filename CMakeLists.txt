@@ -96,6 +96,7 @@ add_action_files(
   FILES
   Coverage.action
   Empty.action
+  MoveTo.action
   Takeoff.action
   Target.action
   TaskAllocation.action
