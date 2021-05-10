@@ -54,9 +54,12 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   AreaDivisionEvent.msg
+  ArrayOfBatteries.msg
   ArrayOfPositions.msg
   ArrayOfStates.msg
   ArrayOfVectors.msg
+  BatteryState.msg
+  BatteryStateEvent.msg
   CartKnownEvent.msg
   NewCartEvent.msg
   Position.msg
