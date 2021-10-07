@@ -1,5 +1,0 @@
-geometry_msgs/Point point
----
-uint32[] index # indexes of the area coordinate bounds
-geometry_msgs/Point[] coords # coordinates of the area bounds
-float64 dist # distance to area bound
