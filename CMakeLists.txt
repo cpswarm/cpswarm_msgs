@@ -62,6 +62,7 @@ add_message_files(
   BatteryStateEvent.msg
   CartKnownEvent.msg
   NewCartEvent.msg
+  PointArrayEvent.msg
   Position.msg
   StateEvent.msg
   TargetHelp.msg
@@ -83,6 +84,7 @@ add_service_files(
   Danger.srv
   FixToPose.srv
   GeoToPose.srv
+  GetDist.srv
   GetDouble.srv
   GetGpsFix.srv
   GetPoint.srv

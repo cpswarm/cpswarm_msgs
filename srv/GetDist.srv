@@ -1,0 +1,5 @@
+geometry_msgs/Point point          # The point to check the distance for.
+---
+geometry_msgs/Point closest_point  # The closest point on the area boundary for which the distance is given.
+geometry_msgs/Point[] closest_line # The coordinates of the closest area boundary.
+float64 distance                   # The distance between the given point and the closest point.
