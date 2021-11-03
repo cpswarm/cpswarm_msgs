@@ -1,0 +1,3 @@
+geographic_msgs/GeoPoseStamped geo
+---
+geometry_msgs/PoseStamped pose
