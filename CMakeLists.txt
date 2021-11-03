@@ -79,6 +79,7 @@ add_message_files(
 add_service_files(
   FILES
   ClearOfObstacles.srv
+  ClosestBound.srv
   Danger.srv
   FixToPose.srv
   GetDouble.srv
