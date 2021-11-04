@@ -1,0 +1,4 @@
+geometry_msgs/Point start # The initial waypoint of the path.
+---
+nav_msgs/Path path        # The generated path.
+---

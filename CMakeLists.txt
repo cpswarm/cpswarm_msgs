@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   geometry_msgs
   geographic_msgs
+  nav_msgs
   swarmros
   actionlib_msgs
   message_generation
@@ -105,11 +106,12 @@ add_action_files(
   Coverage.action
   Empty.action
   MoveTo.action
+  PathGeneration.action
+  PickAndPlace.action
   Takeoff.action
   Target.action
   TaskAllocation.action
   Tracking.action
-  PickAndPlace.action
 )
 
 ## Generate added messages and services with any dependencies listed here
@@ -119,6 +121,7 @@ generate_messages(
   sensor_msgs
   geometry_msgs
   geographic_msgs
+  nav_msgs
   swarmros
   actionlib_msgs
   cpswarm_msgs
