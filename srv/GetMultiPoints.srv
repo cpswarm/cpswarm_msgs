@@ -1,0 +1,4 @@
+
+---
+std_msgs/MultiArrayLayout layout # Specification of array layout.
+geometry_msgs/Point[] points     # A flattened, multi-dimensional array of points.
