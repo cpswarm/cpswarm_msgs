@@ -61,6 +61,7 @@ add_message_files(
   ArrayOfVectors.msg
   BatteryState.msg
   BatteryStateEvent.msg
+  BooleanEvent.msg
   CartKnownEvent.msg
   NewCartEvent.msg
   PointArrayEvent.msg
