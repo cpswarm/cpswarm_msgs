@@ -65,7 +65,6 @@ add_message_files(
   CartKnownEvent.msg
   NewCartEvent.msg
   PointArrayEvent.msg
-  PointMultiArrayEvent.msg
   Position.msg
   StateEvent.msg
   TargetHelp.msg
