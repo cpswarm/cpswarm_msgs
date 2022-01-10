@@ -1,3 +1,4 @@
+geometry_msgs/Point[] coords       # The coordinates of the area to get the distance for.
 geometry_msgs/Point point          # The point to check the distance for.
 ---
 geometry_msgs/Point closest_point  # The closest point on the area boundary for which the distance is given.
