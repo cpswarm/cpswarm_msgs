@@ -89,6 +89,7 @@ add_service_files(
   GetDist.srv
   GetDouble.srv
   GetGpsFix.srv
+  GetMap.srv
   GetMultiPoints.srv
   GetPoint.srv
   GetPoints.srv
