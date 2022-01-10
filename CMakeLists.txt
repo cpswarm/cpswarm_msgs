@@ -110,6 +110,8 @@ add_action_files(
   MoveTo.action
   PathGeneration.action
   PickAndPlace.action
+  RoiAssignment.action
+  RoiDivision.action
   Takeoff.action
   Target.action
   TaskAllocation.action
