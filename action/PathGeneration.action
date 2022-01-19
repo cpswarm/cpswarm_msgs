@@ -1,4 +1,5 @@
-geometry_msgs/Point start # The initial waypoint of the path.
+geometry_msgs/Point start  # The initial waypoint of the path.
+geometry_msgs/Point[] area # The coordinates of the area to cover.
 ---
-nav_msgs/Path path        # The generated path.
+nav_msgs/Path path         # The generated path.
 ---
