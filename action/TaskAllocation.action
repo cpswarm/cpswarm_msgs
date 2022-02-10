@@ -1,11 +1,11 @@
 # Define the goal
 string auctioneer                   # UUID of the CPS performing the task allocation
-uint32 task_id                      # ID of the task
+string task_id                      # ID of the task
 geometry_msgs/PoseStamped task_pose # Local position of the task
 ---
 # Define the result
 string winner                       # UUID of the CPS to which the task is allocated
-uint32 task_id                      # ID of the task
+string task_id                      # ID of the task
 geometry_msgs/PoseStamped task_pose # Local position of the task (if assignment failed, use as input)
 ---
 # Define the feeeback
