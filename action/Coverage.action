@@ -1,5 +1,5 @@
 float64 altitude                      # altitude at which the coverage takes place
 ---
-uint32 target_id                      # id of the found target
+string target_id                      # id of the found target
 geometry_msgs/PoseStamped target_pose # position of the found target
 ---
