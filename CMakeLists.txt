@@ -89,6 +89,7 @@ add_service_files(
   GetDist.srv
   GetDouble.srv
   GetGpsFix.srv
+  GetMap.srv
   GetMultiPoints.srv
   GetPoint.srv
   GetPoints.srv
@@ -110,6 +111,8 @@ add_action_files(
   MoveTo.action
   PathGeneration.action
   PickAndPlace.action
+  RoiAssignment.action
+  RoiDivision.action
   Takeoff.action
   Target.action
   TaskAllocation.action

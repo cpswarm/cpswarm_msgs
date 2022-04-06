@@ -1,0 +1,8 @@
+geometry_msgs/Point[] coords      # The coordinates of the area to get the map for.
+bool rotate                       # Whether the bottom edge of the map should be aligned horizontally.
+bool translate                    # Whether the origin of the map should be an even number.
+float64 resolution                # The resolution that the map should be down sampled to.
+---
+nav_msgs/OccupancyGrid map        # The grid map corresponding to the coordinates.
+float64 rotation                  # The angle that the map has been rotated by, counter-clockwise, starting from x-axis.
+geometry_msgs/Vector3 translation # The x and y translation of the map.

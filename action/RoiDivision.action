@@ -1,0 +1,7 @@
+geometry_msgs/Point[] roi        # The ROI to divide.
+string[] cpss_uuid               # The UUIDs of the CPSs.
+geometry_msgs/Point[] cpss_pos   # The positions of the CPSs.
+---
+std_msgs/MultiArrayLayout layout # The specification of division array layout.
+geometry_msgs/Point[] division   # A flattened, two-dimensional array with the sub-ROIs given in the same order as the CPSs.
+---

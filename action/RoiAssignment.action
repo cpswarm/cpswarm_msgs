@@ -1,0 +1,4 @@
+---
+geometry_msgs/Point[] roi # The assigned ROI.
+---
+float32 progress          # Percent of assignment done.
