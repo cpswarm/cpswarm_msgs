@@ -100,6 +100,7 @@ add_service_files(
   OutOfBounds.srv
   PoseToFix.srv
   PoseToGeo.srv
+  SetRoiState.srv
 )
 
 ## Generate actions in the 'action' folder

@@ -1,0 +1,4 @@
+geometry_msgs/Point[] coords # The coordinates of the ROI.
+int32 state                  # The state to set the ROI to.
+---
+bool success                 # Whether the state change succeeded. False if ROI not existing or invalid state.
