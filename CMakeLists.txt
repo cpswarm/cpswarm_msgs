@@ -58,6 +58,7 @@ add_message_files(
   ArrayOfBatteries.msg
   ArrayOfPositions.msg
   ArrayOfStates.msg
+  ArrayOf3dVectors.msg
   ArrayOfVectors.msg
   BatteryState.msg
   BatteryStateEvent.msg
@@ -75,6 +76,8 @@ add_message_files(
   TargetTrackedBy.msg
   TargetTracking.msg
   Vector.msg
+  Vector3d.msg
+  Vector3dStamped.msg
   VectorStamped.msg
   Velocity.msg
 )

@@ -1,3 +1,2 @@
-float32 r     # radial distance
-float32 theta # polar angle
-float32 phi   # azimuthal angle
+float32 magnitude # magnitude of vector
+float32 direction # direction of vector
